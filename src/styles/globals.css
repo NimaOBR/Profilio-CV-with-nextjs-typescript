@@ -6,11 +6,6 @@ body{
     background-color: #000;
     overflow-x: hidden;
 }
-@media only screen and (min-width: 1024px) {
-    body {
-          overflow-y:hidden
-    }
-  }
 
 ::-webkit-scrollbar-thumb{
     background-image: linear-gradient(180deg, #27E1C1,#0081B4);
