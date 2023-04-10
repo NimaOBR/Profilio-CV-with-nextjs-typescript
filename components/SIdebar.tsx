@@ -30,7 +30,7 @@ const SIdebar = () => {
         className="h-36 w-36 rounded-full mx-auto "
       />
       <h2 className="my-3 text-3xl font-medium tracking-wider font-Alkatra dark:text-white">
-         <span className="text-green-400">Sumit</span> Day
+         <span className="text-green-400">Nima</span> Mohammadi
       </h2>
       <p className="px-2 py-1 my-3 bg-nima rounded-full dark:bg-zinc-700 dark:text-white">Web Developer</p>
       <a

@@ -13,8 +13,8 @@ const ServiseCard: FunctionComponent<{ item: Iservis }> = ({
   return (
     <div className="p-2 flex items-center space-x-4  dark:bg-dark-500 h-24">
       <Icon className="text-green-400 w-12 h-12" />
-      <div>
-        <h4 className="font-bold">{title}</h4>
+      <div className='tracking-wider'>
+        <h4 className="font-bold tracking-widest">{title}</h4>
         {first&&<div dangerouslySetInnerHTML={createMarkup(first)}/>}
       </div>
     </div>

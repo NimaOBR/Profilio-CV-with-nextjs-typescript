@@ -36,10 +36,7 @@ const index = ({ envpoint }: any) => {
       className="flex flex-col px-6 pt-1 flex-grow "
     >
       <h5 className="my-3 text-medium">
-        I am currently pursuing B.Tech Degree(Final Year) in Computer Science
-        Engineering from Academy of Technology. I have 3+ years of experience in
-        Web Development and I have a Youtube Channel where I teach Full Stack
-        Web Development
+      I am currently in the process of obtaining an e-degree as a final year student with a passing degree in programming from Johns Hopkins University in the United States and I have 3 years of work experience and I will do my job in the best way.
       </h5>
       <div
         className="p-4 mt-5 mb-2 bg-nima flex-grow dark:bg-dark-200 rounded-2xl"

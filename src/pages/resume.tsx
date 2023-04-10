@@ -40,7 +40,7 @@ const resume = () => {
       {/* Grid Language */}
       <div className="grid md:grid-cols-2 gap-6">
         <div>
-          <h5 className="text-2xl font-bold mt-3">Languages & Frameworks</h5>
+          <h5 className="text-2xl font-bold mt-3 max-[520px]:text-xl">Languages & Frameworks</h5>
           <div className="my-2">
             {languages.map((item) => (
               <ResumeBar item={item} key={item.name} />
@@ -48,7 +48,7 @@ const resume = () => {
           </div>
         </div>
         <div>
-          <h5 className="text-2xl font-bold mt-3">Tools & Softwares</h5>
+          <h5 className="text-2xl font-bold mt-3 max-[520px]:text-xl">Tools & Softwares & Hardwares</h5>
           <div className="my-2">
             {tools.map((item) => (
               <ResumeBar item={item} key={item.name} />

@@ -26,7 +26,7 @@ const variants ={
       variants={variants}
       initial='initial'
       animate='animate'
-        className="px-4 py-1 flex items-center rounded-full bg-gradient-to-r from-Newgreen to-Newblue "
+        className="px-4 py-1 flex items-center rounded-full bg-gradient-to-r from-Newgreen to-Newblue max-[520px]:text-sm  max-[400px]:text-xs"
         style={{ width: bar_width }}
       >
         <Icon className="mr-3" />
